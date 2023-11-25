@@ -1,0 +1,95 @@
+header {
+    background-color: rgb(75, 172, 75); 
+    padding: 10px; 
+  }
+  
+  .navbar {
+    display: flex; 
+    list-style: none; 
+    align-items: center; 
+  }
+  
+  
+  .navbar a {
+    text-decoration: underline; 
+    color: black; 
+    font-weight: bold; 
+    font-size: 18px;
+  }
+ 
+  #icon {
+    width: 10rem; 
+    height: 10rem; 
+    margin-right: auto; 
+  }
+  
+  .navbar li {
+    margin-left: 50px; 
+    margin-right: 50px;
+    
+  }
+
+  .navbar li:first-child {
+
+    margin-left: 70%;
+  }
+  .navbar a:hover{
+    color: white;
+  }
+
+  footer {
+    bottom: 0;
+    position: relative;
+    background-color: #C0C0C0; /* Background color */
+    color: black; /* Text color */
+    text-align: center; /* Center-align text */
+    width: 100%;
+    margin:  5rem auto;
+    padding: 50px;
+  }
+  
+/* ---------- body css ------------ */
+body{
+    height: 100vh;
+}
+.header-cont {
+    width: 50%;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#myimage {
+    width: 100%;
+    height: auto;
+}
+
+
+.container {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin: 0 40%;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
